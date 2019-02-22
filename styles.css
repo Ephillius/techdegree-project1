@@ -27,7 +27,6 @@ a:hover {
     width: 100%;
     background: black;
     min-height: 30px;
-    z-index:1;
     padding: 10px;
     position: fixed;
     text-align: center;
@@ -132,6 +131,10 @@ ul.skills {
 
 .skills li:nth-child(odd) {
     background: #0399ff;
+}
+
+.skills-image {
+    width: 100%;
 }
 
 footer {
